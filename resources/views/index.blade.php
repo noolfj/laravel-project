@@ -13,9 +13,7 @@
         </form>
     </div>
 @endsection
-
 @section('content')
-
 <div class="site-blocks-cover" style="background-image: url(images/hero_bg_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row row-custom align-items-center">
@@ -442,11 +440,6 @@
       </div>
     </div>    
 
-
-    
-
-    
-
     <div class="site-section">
       <div class="container">
         <div class="row justify-content-center text-center mb-5">
@@ -579,7 +572,6 @@
             <h2 class="text-black">Happy Employers</h2>
           </div>
         </div>
-
         <div class="nonloop-block-4 owl-carousel" data-aos="fade">
           <div class="item col-md-8 mx-auto">
             
