@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('jobtype', function (Blueprint $table) {
             $table->id();
             $table->string("name");
-            $table->int("status");
+            $table->int("status")->nullable();
             $table->timestamps();
         });
     }
