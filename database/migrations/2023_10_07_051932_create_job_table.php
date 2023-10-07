@@ -20,7 +20,7 @@ return new class extends Migration
             $table->int("company_id");
             $table->int("type_id");
             $table->int("location_id");
-            $table->longtext("descripton");
+            $table->longtext("description");
             $table->timestamps();
 
         });
