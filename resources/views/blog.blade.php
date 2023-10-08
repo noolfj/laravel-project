@@ -1,14 +1,14 @@
 @extends('layout')
 
 @section('title')
-    Страница блог
+    Страница blog
 @endsection
 
 @section('banner')
 <div class="unit-5 overlay" style="background-image: url('images/hero_bg_2.jpg');">
       <div class="container text-center">
         <h2 class="mb-0">Blog</h2>
-        <p class="mb-0 unit-6"><a href="index.html">Home</a> <span class="sep">></span> <span>Blog</span></p>
+        <p class="mb-0 unit-6"><a href="/">Home</a> <span class="sep">></span> <span>Blog</span></p>
       </div>
     </div>
 @endsection

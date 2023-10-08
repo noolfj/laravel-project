@@ -5,6 +5,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\NewpostController;
+use App\Http\Controllers\CategoryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,22 +20,20 @@ use App\Http\Controllers\AboutController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('home');
-// });
-// Route::get('/', function () {
-//     return view('blog');
-// });
-// Route::get('/', function () {
-//     return view('about');
-// });
+
+Route::get('/', [HomeController::class, 'home']);
 
 
-Route::get('/index.html', [HomeController::class, 'home']);
+Route::get('/index', [HomeController::class, 'home']);
 
-Route::get('/blog.html', [BlogController::class, 'blog']);
 
-Route::get('/about.html', [AboutController::class, 'about']);
+Route::get('/blog', [BlogController::class, 'blog']);
 
-// Route::get('/contact', [ContactController::class, 'contact']);
+Route::get('/about', [AboutController::class, 'about']);
+
+Route::get('/contact', [ContactController::class, 'contact']);
+
+Route::get('/new-post', [NewpostController::class, 'newpost']);
+
+Route::get('/category', [CategoryController::class, 'category']);
 
