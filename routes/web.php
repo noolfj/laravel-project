@@ -23,10 +23,6 @@ use App\Http\Controllers\CategoryController;
 
 Route::get('/', [HomeController::class, 'home']);
 
-
-Route::get('/index', [HomeController::class, 'home']);
-
-
 Route::get('/blog', [BlogController::class, 'blog']);
 
 Route::get('/about', [AboutController::class, 'about']);

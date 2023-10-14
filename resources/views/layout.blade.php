@@ -52,7 +52,7 @@
             <nav class="site-navigation text-right" role="navigation">
 
               <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li class="active"><a href="index">Home</a></li>
+                <li class="active"><a href="/">Home</a></li>
                 <li class="has-children">
                   <a href="category">Category</a>
                   <ul class="dropdown">
