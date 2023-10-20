@@ -33,3 +33,5 @@ Route::get('/new-post', [NewpostController::class, 'newpost']);
 
 Route::get('/category', [CategoryController::class, 'category']);
 
+
+Route::post('/create-job', [NewpostController::class, 'create'])->name('job.create');
