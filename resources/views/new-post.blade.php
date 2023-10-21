@@ -8,7 +8,7 @@
 <div class="unit-5 overlay" style="background-image: url('images/hero_bg_2.jpg');">
     <div class="container text-center">
         <h2 class="mb-0">Разместить вакансию</h2>
-        <p class="mb-0 unit-6"><a href="/">Главная</a> <span class="sep">></span> <span>Разместить вакансию</span></p>
+        <p class="mb-0 unit-6"><a href="/">Главная</a> <span class="sep"></span> <span>Разместить вакансию</span></p>
     </div>
 </div>
 @endsection
@@ -16,6 +16,12 @@
 @section('content')
 <div class="site-section bg-light">
     <div class="container">
+      @if(session()->has('success'))
+        <div class="alert alert-success">
+        {{session()->get('success')}}
+        </div>
+      @endif
+      <?php session()->forget('success'); ?>
         <div class="row">
             <div class="col-md-12 col-lg-8 mb-5">
                 <form action="{{ route('job.create') }}" method="post" class="p-5 bg-white">
@@ -24,7 +30,7 @@
                     <div class="row form-group">
                         <div class="col-md-12 mb-3 mb-md-0">
                             <label class="font-weight-bold" for="fullname">Название</label>
-                            <input type="text" name="title" id="fullname" class="form-control" placeholder="eg. Full Stack Frontend">
+                            <input type="text" name="title" id="fullname" class="form-control" placeholder="пр. Full Stack Frontend">
                         </div>
                     </div>
 

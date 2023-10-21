@@ -7,6 +7,8 @@ use App\Models\Location;
 use App\Models\JobType;
 use App\Models\Company;
 
+
+use Illuminate\Support\Facades\Session;
 use Illuminate\Http\Request;
 
 class NewpostController extends Controller
@@ -26,8 +28,8 @@ class NewpostController extends Controller
     }
         public function create(Request $request){
             Job::create($request->all());
-
-            return redirect('/');
+            Session::put('success','Успешно сохранен!');
+            return redirect('/new-post');
             
             // dd($request);
         

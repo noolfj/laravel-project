@@ -7,8 +7,8 @@
 @section('banner')
  <div class="unit-5 overlay" style="background-image: url('images/hero_bg_2.jpg');">
       <div class="container text-center">
-        <h2 class="mb-0">About</h2>
-        <p class="mb-0 unit-6"><a href="/">Home</a> <span class="sep">></span> <span>О нас</span></p>
+        <h2 class="mb-0">О нас</h2>
+        <p class="mb-0 unit-6"><a href="/">Главная</a> <span class="sep">></span> <span>О нас</span></p>
       </div>
     </div>
 
@@ -224,7 +224,7 @@
         <div class="row row-custom align-items-center">
           <div class="col-md-10">
             <h1 class="mb-2 text-black w-75">Получите 40% скидку на новые вакансии от <span class="font-weight-bold"> Нового Работодателя</span> </h1>
-            <p class="h3"><a href="#" class="btn btn-primary py-3 px-5">Разместить вакансию</a></p>
+            <p class="h3"><a href="/new-post" class="btn btn-primary py-3 px-5">Разместить вакансию</a></p>
           </div>
         </div>
       </div>

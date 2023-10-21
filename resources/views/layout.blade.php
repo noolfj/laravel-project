@@ -45,7 +45,7 @@
         <div class="row align-items-center">
           
           <div class="col-6 col-xl-2">
-            <h1 class="mb-0"><a href="index" class="text-black h2 mb-0">Job<strong>start</strong></a></h1>
+            <h1 class="mb-0"><a href="/" class="text-black h2 mb-0">Job<strong>start</strong></a></h1>
           </div>
 
           <div class="col-10 col-xl-10 d-none d-xl-block">
