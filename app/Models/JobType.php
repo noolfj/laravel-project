@@ -11,7 +11,7 @@ class JobType extends Model
 
     public $table='JobType';
 
-    public function types(){
+    public function jobtypes(){
         return $this->belongsTo(JobType::class);
     }
 

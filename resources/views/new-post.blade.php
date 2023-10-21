@@ -187,7 +187,7 @@
             <input type="text" class="form-control border-0 mb-3 mb-md-0" placeholder="Enter Your Email">
           </div>
           <div class="col-md-3">
-            <input type="submit" value="Send" class="btn btn-dark btn-block" style="height: 45px;">  
+            <input type="submit" value="Отправить" class="btn btn-dark btn-block" style="height: 45px;">  
           </div>
         </form>
       </div>
