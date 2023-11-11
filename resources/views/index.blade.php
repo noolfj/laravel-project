@@ -107,6 +107,9 @@
         </div>
 
 
+   
+
+       
         @foreach($jobs as $job)
         <div class="row" data-aos="fade">
          <div class="col-md-12">
@@ -142,6 +145,7 @@
               {{ $jobs->links('pagination::bootstrap-5') }}
           </div>
         </div>
+
 
 
       </div>

@@ -8,7 +8,7 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\NewpostController;
 use App\Http\Controllers\CategoryController;
-
+use App\Http\Controllers\JobController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -35,3 +35,9 @@ Route::get('/category', [CategoryController::class, 'category']);
 
 
 Route::post('/create-job', [NewpostController::class, 'create'])->name('job.create');
+
+
+
+
+
+

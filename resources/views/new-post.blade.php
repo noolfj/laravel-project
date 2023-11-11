@@ -85,9 +85,10 @@
                   <button type="submit" value="Post" class="btn btn-primary  py-2 px-5">Добавить
                 </div>
               </div>
-
             </form>
-          </div>
+      
+         
+                  </div>
 
           <div class="col-lg-4">
             <div class="p-4 mb-3 bg-white">

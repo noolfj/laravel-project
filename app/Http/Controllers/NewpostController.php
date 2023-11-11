@@ -34,4 +34,5 @@ class NewpostController extends Controller
             // dd($request);
         
     }
+    
 }
